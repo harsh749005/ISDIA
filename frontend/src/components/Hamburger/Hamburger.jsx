@@ -118,7 +118,7 @@ const Hamburger = ({check}) => {
                 </li>
               </ul>
             </li>
-            <button className="relative btn md:hidden  text-black px-8 py-2 font-poppins bg-white  hover:text-white ">
+            <button className="relative btn md:hidden w-max text-black px-8 py-2 font-poppins bg-white  hover:text-white ">
           <span className="font-medium">Contact</span>
         </button>
           </ul>
