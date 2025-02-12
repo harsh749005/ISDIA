@@ -1,0 +1,20 @@
+
+/* Links sublinks */
+.hamauthor{
+    position: relative;
+  }
+  .hamauthor-subul{
+    position: absolute;
+    top: 100%;
+    left: 150px;
+    background-color: black ;
+    padding: 10px;
+    display: none;
+    transition: display 0.3s ease-in-out;
+  }
+  .hamauthor:hover .hamauthor-subul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 10px;
+  }
