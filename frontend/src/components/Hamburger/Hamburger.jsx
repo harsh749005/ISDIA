@@ -120,7 +120,7 @@ const Hamburger = ({check}) => {
             </li>
             
           </ul>
-          <div className='w-full flex items-center mt-10'>
+          <div className='w-full flex justify-center mt-10'>
 
             <button className="relative btn md:hidden  text-black px-8 py-2 font-poppins bg-white  hover:text-white ">
           <span className="font-medium">Contact</span>
