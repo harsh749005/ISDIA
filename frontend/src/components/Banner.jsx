@@ -3,7 +3,7 @@ import Globe from '../assets/globe.png'
 const Banner = () => {
   return (
     <>
-    <div className='w-screen h-screen bg-black flex flex-row px-10'>
+    <div className='w-full h-full bg-black flex flex-row px-10'>
       <h1 className='w-[800px] bg-black text-white font-poppins mt-20 text-8xl '>
       Information System Design <span className='bg-[#9d66ff] line-clamp-1 w-max'>and</span> Intelligent Applications.
       </h1>
