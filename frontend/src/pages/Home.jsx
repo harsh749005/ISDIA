@@ -1,11 +1,13 @@
 import React from 'react'
 import Banner from '../components/Banner'
+import Events from '../components/Events'
 
 const Home = () => {
   return (
-    <>
-     <Banner/> 
-    </>
+    <div className='w-screen h-screen'>
+     {/* <Banner/> 
+     <Events/> */}
+    </div>
   )
 }
 
