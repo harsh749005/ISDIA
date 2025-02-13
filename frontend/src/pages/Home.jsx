@@ -5,8 +5,8 @@ import Events from '../components/Events'
 const Home = () => {
   return (
     <div className='w-screen h-screen'>
-     {/* <Banner/> 
-     <Events/> */}
+     <Banner/> 
+     <Events/>
     </div>
   )
 }
