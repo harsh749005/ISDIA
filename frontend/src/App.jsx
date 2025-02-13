@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hamburger from './components/Hamburger/Hamburger'
+import Home from './pages/Home';
 
 
 
@@ -14,6 +15,7 @@ function App() {
     <>
      <Navbar toggleCheck={toggleCheck} check={check}/>
      <Hamburger check={check}/>
+     <Home/>
     </>
   )
 }
