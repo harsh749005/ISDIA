@@ -2,7 +2,8 @@ import React from 'react'
 import './Hamburger.css'
 const Hamburger = ({check}) => {
   return (
-    <div className={`w-screen h-screen  md:hidden ${check?'right-0':'right-[-100%]'} absolute bg-black transition-all duration-500 ease-in-out `}>
+    <div className={`${check?'w-screen h-screen bg-black ':'bg-black '} overflow-hidden  relative transition-all duration-500 ease-in-out`}>
+    <div className={`w-screen h-screen  md:hidden ${check?'right-0':'right-[-100%]'} fixed bg-black transition-all duration-500 ease-in-out `}>
       <ul className="flex flex-col ml-5 w-max  cursor-pointer text-white text-[12px]  gap-5 font-spacemono mg:hidden">
             <li className="hover:bg-[#9d66ff] hover:text-white hover:px-2 transition-all duration-300">
               Home
@@ -124,6 +125,8 @@ const Hamburger = ({check}) => {
           </ul>
           
     </div>
+    </div>
+
   )
 }
 
