@@ -3,7 +3,7 @@ import dubai from "../../assets/dubai.jpg";
 import "./style.css";
 const Events = () => {
   return (
-    <div className="bg-pink-500 w-full h-full flex ">
+    <div className="bg-pink-500 w-full h-max flex ">
       <div className="w-1/2 bg-black px-20 py-20 flex flex-col gap-5">
         <h1 className="text-6xl font-spacemono font-bold text-white">Events</h1>
         <div className="w-full h-full flex flex-col gap-5">
@@ -19,7 +19,7 @@ const Events = () => {
       </div>
       <div className="flex-1 bg-black py-20">
         <div className="image_div w-[700px] ">
-          <img src="https://images.pexels.com/photos/3787839/pexels-photo-3787839.jpeg?cs=srgb&dl=pexels-ivan-siarbolin-1513699-3787839.jpg&fm=jpg" alt="" className="w-full h-full object-cover" />
+          <img src="https://images.pexels.com/photos/3787839/pexels-photo-3787839.jpeg?cs=srgb&dl=pexels-ivan-siarbolin-1513699-3787839.jpg&fm=jpg" alt="event image" className="w-full h-full object-cover" />
         </div>
       </div>
     </div>
