@@ -7,7 +7,7 @@ const Banner = () => {
       <h1 className='w-[800px] bg-black text-white font-poppins mt-20 text-5xl md:text-8xl '>
       Information System Design <span className='bg-[#9d66ff] line-clamp-1 w-max'>and</span> Intelligent Applications.
       </h1>
-        <div className='w-[600px] h-[600px] relative  opacity-55 hidden'>
+        <div className='w-[600px] h-[600px] relative  opacity-55 hidden md:block'>
             <img src={Globe} alt="" className='absolute w-full h-full object-cover' />
         </div>
 

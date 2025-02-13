@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '../components/Banner'
-import Events from '../components/Events'
+import Events from '../components/Events/Events'
 
 const Home = () => {
   return (
