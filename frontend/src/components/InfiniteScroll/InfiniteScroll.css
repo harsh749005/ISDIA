@@ -1,0 +1,117 @@
+/* 
+.slider{
+    width: 100%;
+    border: 1px solid red;
+    height: var(--height);
+}
+.slider .list{
+    display: flex;
+    width: 100%;
+    min-width: calc(var(--width) * var(--quantity));
+    position: relative;
+}
+.slider .list .item{
+    width: var(--width);
+    height: var(--height);
+    position: absolute;
+    left: 100%;
+    animation: autoRun 10s linear infinite;
+    animation-delay: calc((10s / var(--quantity)) * (var(--position)-1));
+}
+.slider .list .item img{
+    width: 100%;
+}
+@keyframes autoRun{
+    from{
+        left: 100%;
+    }
+    to{
+        left: calc(var(--width) * -1);
+    }
+} */
+ /* .list{
+    animation: loop-scroll 50s linear infinite;
+ }
+@keyframes loop-scroll{
+    from{
+        transform: translate(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+.wrapper {
+
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 100px;
+  background-color: black;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+.item {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  border-radius: 6px;
+  position: absolute;
+  left: max(calc(200px * 27), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.item1 { animation-delay: calc(30s / 27 * (27 - 1) * -1); }
+.item2 { animation-delay: calc(30s / 27 * (27 - 2) * -1); }
+.item3 { animation-delay: calc(30s / 27 * (27 - 3) * -1); }
+.item4 { animation-delay: calc(30s / 27 * (27 - 4) * -1); }
+.item5 { animation-delay: calc(30s / 27 * (27 - 5) * -1); }
+.item6 { animation-delay: calc(30s / 27 * (27 - 6) * -1); }
+.item7 { animation-delay: calc(30s / 27 * (27 - 7) * -1); }
+.item8 { animation-delay: calc(30s / 27 * (27 - 8) * -1); }
+.item9 { animation-delay: calc(30s / 27 * (27 - 9) * -1); }
+.item10 { animation-delay: calc(30s / 27 * (27 - 10) * -1); }
+.item11 { animation-delay: calc(30s / 27 * (27 - 11) * -1); }
+.item12 { animation-delay: calc(30s / 27 * (27 - 12) * -1); }
+.item13 { animation-delay: calc(30s / 27 * (27 - 13) * -1); }
+.item14 { animation-delay: calc(30s / 27 * (27 - 14) * -1); }
+.item15 { animation-delay: calc(30s / 27 * (27 - 15) * -1); }
+.item16 { animation-delay: calc(30s / 27 * (27 - 16) * -1); }
+.item17 { animation-delay: calc(30s / 27 * (27 - 17) * -1); }
+.item18 { animation-delay: calc(30s / 27 * (27 - 18) * -1); }
+.item19 { animation-delay: calc(30s / 27 * (27 - 19) * -1); }
+.item20 { animation-delay: calc(30s / 27 * (27 - 20) * -1); }
+.item21 { animation-delay: calc(30s / 27 * (27 - 21) * -1); }
+.item22 { animation-delay: calc(30s / 27 * (27 - 22) * -1); }
+.item23 { animation-delay: calc(30s / 27 * (27 - 23) * -1); }
+.item24 { animation-delay: calc(30s / 27 * (27 - 24) * -1); }
+.item25 { animation-delay: calc(30s / 27 * (27 - 25) * -1); }
+.item26 { animation-delay: calc(30s / 27 * (27 - 26) * -1); }
+.item27 { animation-delay: calc(30s / 27 * (27 - 27) * -1); }
+
