@@ -32,9 +32,9 @@ const Countries = () => {
     "UAE",
   ];
   return (
-    <div className="bg-black px-10 py-20 flex flex-col gap-10">
+    <div className="bg-black px-2 md:px-10 py-20 flex flex-col gap-10">
       
-      <h1 className="text-6xl font-spacemono font-bold text-white text-left w-max">
+      <h1 className="text-4xl md:text-4xl lg:text-4xl xl:text-6xl font-spacemono font-bold text-white">
         Participating Countries
       </h1>
       <div className="flex items-center gap-5 flex-wrap">
