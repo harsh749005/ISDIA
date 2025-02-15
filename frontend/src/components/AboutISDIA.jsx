@@ -12,7 +12,7 @@ const AboutISDIA = () => {
           />
         </div>
       </div>
-      <div className="w-full xl:w-1/2 bg-black px-2 md:px-5  lg:px-10 md:py-10 lg:py-20 flex flex-col gap-5 items-end">
+      <div className="w-full xl:w-1/2 bg-black px-2 md:px-5  lg:px-10 md:py-10 lg:py-20 flex flex-col gap-5 xl:items-end">
         <h1 className="text-4xl md:text-4xl lg:text-4xl xl:text-6xl font-spacemono font-bold text-white">
           ISDIA 2025
         </h1>
@@ -72,7 +72,7 @@ const AboutISDIA = () => {
           accepted and registered articles/research papers which will be indexed
           in SCOPUS, WoS, DBLP etc as per the Springer Nature guidelines.
         </p>
-        <button className="relative btn hidden md:block text-black px-8 py-2 font-poppins bg-white  hover:text-white ">
+        <button className="relative btn  text-black w-max h-max px-8 py-2 font-poppins bg-white  hover:text-white ">
           <span className="font-medium">Submit Your Paper</span>
         </button>
       </div>
