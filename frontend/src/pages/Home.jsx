@@ -21,7 +21,7 @@ const Home = () => {
      <AboutHivePro/>
      <AboutAaquarians/>
      <Countries/>
-     {/* <Conference/> */}
+     <Conference/>
      {/* <SlilderBar/> */}
      {/* <Footer/> */}
     </div>
