@@ -15,15 +15,15 @@ const Home = () => {
   return (
     <div className='w-full h-screen'>
      <Banner/> 
-     {/* <Events/>
-     <AboutISDIA/>
-     <AboutUOWD/>
-     <AboutHivePro/>
-     <AboutAaquarians/>
-     <Countries/>
-     <Conference/>
-     <SlilderBar/>
-     <Footer/> */}
+     <Events/>
+     {/* <AboutISDIA/> */}
+     {/* <AboutUOWD/> */}
+     {/* <AboutHivePro/> */}
+     {/* <AboutAaquarians/> */}
+     {/* <Countries/> */}
+     {/* <Conference/> */}
+     {/* <SlilderBar/> */}
+     {/* <Footer/> */}
     </div>
   )
 }

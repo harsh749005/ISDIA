@@ -3,7 +3,7 @@ import Globe from "../assets/globe.png";
 const Banner = () => {
   return (
     <>
-      <div className="w-full h-full xl:h-max bg-black flex flex-col gap-6 lg:gap-8  px-2 md:px-10">
+      <div className="w-full h-full xl:h-max bg-black flex flex-col gap-6 lg:gap-8  px-2 md:px-5  lg:px-10 ">
         {/* Main heading and  globe image holder */}
         <div className="flex ">
 
