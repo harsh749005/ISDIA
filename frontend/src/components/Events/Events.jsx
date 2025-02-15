@@ -4,7 +4,7 @@ import "./style.css";
 const Events = () => {
   return (
     <div className="bg-black w-full md:h-full h-max flex flex-col md:flex md:flex-row">
-      <div className="md:w-1/2 bg-black px-2 md:px-5 lg:px-10 py-20 flex flex-col gap-5">
+      <div className="md:w-1/2 bg-black px-2 md:px-5 lg:px-10 py-10 md:py-20 flex flex-col gap-5">
         <h1 className="text-4xl md:text-4xl lg:text-4xl xl:text-6xl font-spacemono font-bold text-white">Events</h1>
         <div className="w-full h-full flex flex-col gap-5">
           <h2 className="text-gray-500 font-medium lg:text-xl xl:text-2xl font-poppins">9th International Conference on
