@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUOWD = () => {
   return (
-    <div className="bg-pink-500 w-full h-max flex ">
+    <div className="bg-black w-full h-max flex ">
       <div className="w-1/2 bg-black px-10 py-20 flex flex-col gap-5 items-start">
         <h1 className="text-6xl font-spacemono font-bold text-white text-left ">
           University of Wollongong in Dubai (UOWD)
