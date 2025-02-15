@@ -37,7 +37,7 @@ const SlilderBar = () => {
                     />
                     {
                         index === i && (
-                            <div className="tooltip-text text-pink-800 text-3xl px-10 py-2 font-spacemono">{img.name}</div>
+                            <div className="tooltip-text text-white  md:text-3xl px-10 py-2 font-spacemono">{img.name}</div>
                         )
                     }
                 </>
