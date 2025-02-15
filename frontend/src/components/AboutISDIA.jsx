@@ -2,21 +2,21 @@ import React from "react";
 
 const AboutISDIA = () => {
   return (
-    <div className="bg-black w-full h-max flex ">
-      <div className="flex-1 bg-black  py-20">
-        <div className="image_div w-[700px] ">
+    <div className="bg-black w-full h-max flex flex-col xl:flex xl:flex-row">
+      <div className="flex-1 bg-black  py-20 hidden xl:block">
+        <div className="image_div w-full  md:w-[300px] md:h-[200px] lg:w-[500px] xl:w-[700px] xl:h-[700px]">
           <img
             src="https://www.isdia.org/img/i_image/conference_2.jpg"
             alt="event image"
-            className="w-full h-[700px] object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>
-      <div className="w-1/2 bg-black px-20 py-20 flex flex-col gap-5 items-end">
-        <h1 className="text-6xl font-spacemono font-bold text-white text-left w-max">
+      <div className="w-full xl:w-1/2 bg-black px-2 md:px-5  lg:px-10 md:py-10 lg:py-20 flex flex-col gap-5 items-end">
+        <h1 className="text-4xl md:text-4xl lg:text-4xl xl:text-6xl font-spacemono font-bold text-white">
           ISDIA 2025
         </h1>
-        <p className="text-gray-400  font-medium text-sm font-poppins">
+        <p className="text-gray-400  md:font-medium text-sm font-poppins">
           After the grand success of{" "}
           <span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic ">
             8th edition of , ISDIA (Formerly INDIA)
@@ -45,7 +45,7 @@ const AboutISDIA = () => {
             AI for Healthcare.
           </span>
         </h1>
-        <p className="text-gray-400  font-medium text-sm font-poppins ">
+        <p className="text-gray-400  md:font-medium text-sm font-poppins ">
           In this edition, we delve into the transformative power of Artificial
           Intelligence (AI) within the healthcare sector, where cutting-edge
           technology intersects with the human touch.Our exploration encompasses
@@ -58,7 +58,7 @@ const AboutISDIA = () => {
           healthcare, where innovation meets compassion to redefine the future
           of wellness and healing.
         </p>
-        <p className="text-gray-400  font-medium text-sm font-poppins ">
+        <p className="text-gray-400  md:font-medium text-sm font-poppins ">
           In the past, the earlier eight editions of this conference were
           organized in various parts of the globe that include Mauritius,
           Vietnam, UAE and India. After gathering huge appreciations and
@@ -72,9 +72,18 @@ const AboutISDIA = () => {
           accepted and registered articles/research papers which will be indexed
           in SCOPUS, WoS, DBLP etc as per the Springer Nature guidelines.
         </p>
-        <button className="relative btn hidden xl:block text-black px-8 py-2 font-poppins bg-white  hover:text-white ">
+        <button className="relative btn hidden md:block text-black px-8 py-2 font-poppins bg-white  hover:text-white ">
           <span className="font-medium">Submit Your Paper</span>
         </button>
+      </div>
+      <div className="flex-1 bg-black px-10 py-10 md:py-20  md:hidden">
+        <div className="image_div w-full  md:w-[700px]  ">
+          <img
+            src="https://www.isdia.org/img/i_image/conference_2.jpg"
+            alt="event image"
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
     </div>
   );

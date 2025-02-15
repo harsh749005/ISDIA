@@ -16,7 +16,7 @@ const Home = () => {
     <div className='w-full h-screen'>
      <Banner/> 
      <Events/>
-     {/* <AboutISDIA/> */}
+     <AboutISDIA/>
      {/* <AboutUOWD/> */}
      {/* <AboutHivePro/> */}
      {/* <AboutAaquarians/> */}
