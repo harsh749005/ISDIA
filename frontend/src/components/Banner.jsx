@@ -10,20 +10,13 @@ const Banner = () => {
         {/* Main heading and  globe image holder */}
         <div className="flex ">
           <div
-            ref={containerRef}
+    
             className="flex gap-10 flex-col w-full relative"
           >
-            <VariableProximity
-              label={'Information System Design and Intelligent Applications.'}
-              className={
-                "xl:w-[800px] w-full bg-black text-white font-poppins mt-10 lg:mt-20 text-5xl md:text-6xl xl:text-8xl cursor-pointer"
-              }
-              fromFontVariationSettings="'wght' 400, 'opsz' 9"
-              toFontVariationSettings="'wght' 1000, 'opsz' 40 "
-              containerRef={containerRef}
-              radius={100}
-              falloff="linear"
-            />
+            
+            <h1 className="xl:w-[800px] w-full bg-black text-white font-poppins mt-10 lg:mt-20 text-5xl md:text-6xl xl:text-8xl cursor-pointer">
+            Information System Design <span className="bg-[#9d66ff] text-white line-clamp-1 w-max">and</span> Intelligent Applications
+            </h1>
 
             <p className="text-gray-500 text-sm md:w-[600px] lg:text-md font-poppins ">
               The International Conference on Information System Design and
