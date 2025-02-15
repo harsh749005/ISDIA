@@ -22,8 +22,8 @@ const SlilderBar = () => {
     }
   return (
     <div className='bg-black py-20 px-10 relative flex flex-col gap-10 items-center'>
-            <h1 className="text-6xl font-spacemono font-bold text-white text-left w-max">Tourist Attractions</h1>
-            <div className="relative tooltip image_div w-[800px] h-[500px]">
+            <h1 className="text-4xl md:text-4xl lg:text-4xl xl:text-6xl font-spacemono font-bold text-white">Tourist Attractions</h1>
+            <div className="relative tooltip image_div w-full h-[200px]  md:w-[600px] md:h-[300px] lg:w-[700px] lg:h-[400px] xl:w-[800px] xl:h-[500px]">
                 {images.map((img, i) => (
                     <>
 
@@ -45,7 +45,7 @@ const SlilderBar = () => {
              
             </div>
             
-            <button onClick={handleClick} className="relative btn hidden xl:block text-black px-8 py-2 font-poppins bg-white  hover:text-white ">
+            <button onClick={handleClick} className="relative btn  text-black px-8 py-2 font-poppins bg-white  hover:text-white ">
           <span className="font-medium">Next</span>
         </button>
         </div>
