@@ -9,15 +9,17 @@ import Countries from '../components/Countries'
 import Conference from '../components/Conference'
 import SlilderBar from '../components/SlilderBar'
 import Footer from '../components/Footer'
+import AboutAaquarians from '../components/AboutAaquarians'
 
 const Home = () => {
   return (
-    <div className='w-screen h-screen'>
+    <div className='w-full h-screen'>
      <Banner/> 
      <Events/>
      <AboutISDIA/>
      <AboutUOWD/>
      <AboutHivePro/>
+     <AboutAaquarians/>
      <Countries/>
      <Conference/>
      <SlilderBar/>

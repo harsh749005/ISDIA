@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Navbar = ({toggleCheck,check}) => {
 
   return (
-    <div className="bg-black px-5 py-5 xl:px-10 xl:py-10 w-screen">
+    <div className="bg-black px-5 py-5 xl:px-10 xl:py-10 w-full">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-20">
           <div>
