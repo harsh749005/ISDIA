@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutUOWD = () => {
   return (
-    <div className="bg-black w-full h-max flex ">
-      <div className="w-1/2 bg-black px-10 py-20 flex flex-col gap-5 items-start">
-        <h1 className="text-6xl font-spacemono font-bold text-white text-left ">
+    <div className="bg-black w-full h-max flex flex-col xl:flex xl:flex-row">
+      <div className="w-full xl:w-1/2 bg-black px-2 md:px-5  lg:px-10 md:py-10 lg:py-20 flex flex-col gap-5 items-end">
+        <h1 className="text-4xl md:text-4xl lg:text-4xl xl:text-6xl font-spacemono font-bold text-white">
           University of Wollongong in Dubai (UOWD)
         </h1>
         <p className="text-gray-400  font-medium text-sm font-poppins">
@@ -39,12 +39,12 @@ const AboutUOWD = () => {
           IT.
         </p>
       </div>
-      <div className="flex-1 bg-black py-20">
-        <div className="image_div w-[700px]">
+      <div className="flex-1 bg-black px-10 py-10 md:py-20">
+        <div className="image_div w-full  md:w-[300px] md:h-[200px] lg:w-[500px] xl:w-[700px] xl:h-[700px]">
           <img
             src="https://scontent.fbdq2-1.fna.fbcdn.net/v/t39.30808-6/300145057_5656000281099776_3018358873868274354_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pUM0TwBS9fgQ7kNvgH4DDWL&_nc_oc=AdhwfogqIcxrA_fd0-8EsvPQMP-SDXYUzBQkJW1O211lIvU-QGklCbaO6ZevHBn7BY8&_nc_zt=23&_nc_ht=scontent.fbdq2-1.fna&_nc_gid=AV7zHPXqY0s79nOA8AF2c8s&oh=00_AYBSq9jik500D6gmb-LUHYvEenTYLgB4h97bqSeoLKs-mg&oe=67B35CE2"
             alt="event image"
-            className="w-[700px] h-[700px] object-cover ml-auto"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>

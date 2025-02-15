@@ -17,7 +17,7 @@ const Home = () => {
      <Banner/> 
      <Events/>
      <AboutISDIA/>
-     {/* <AboutUOWD/> */}
+     <AboutUOWD/>
      {/* <AboutHivePro/> */}
      {/* <AboutAaquarians/> */}
      {/* <Countries/> */}
