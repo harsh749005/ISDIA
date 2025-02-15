@@ -14,8 +14,7 @@ const Banner = () => {
             className="flex gap-10 flex-col w-full relative"
           >
             <VariableProximity
-              label={`Information System Design and Intelligent Applications.
-          `}
+              label={'Information System Design and Intelligent Applications.'}
               className={
                 "xl:w-[800px] w-full bg-black text-white font-poppins mt-10 lg:mt-20 text-5xl md:text-6xl xl:text-8xl cursor-pointer"
               }
