@@ -1,0 +1,25 @@
+
+.upper-btn-div::before{
+    background-color: #9d66ff;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+  }
+  .upper-btn-div{
+    overflow: hidden;
+  }
+  .upper-btn-div:hover::before{
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  .upper-btn-div .upper-icon{
+    position: relative;
+   
+  }
+  .upper-btn-div .upper-icon:hover {
+    color: white;
+  }
