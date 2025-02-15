@@ -40,7 +40,7 @@ const AboutUOWD = () => {
         </p>
       </div>
       <div className="flex-1 bg-black px-10 py-10 md:py-20">
-        <div className="image_div w-full  md:w-[300px] md:h-[200px] lg:w-[500px] xl:w-[700px] xl:h-[700px]">
+        <div className="image_div w-full  md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[600px] xl:w-[700px] xl:h-[700px]">
           <img
             src="https://scontent.fbdq2-1.fna.fbcdn.net/v/t39.30808-6/300145057_5656000281099776_3018358873868274354_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pUM0TwBS9fgQ7kNvgH4DDWL&_nc_oc=AdhwfogqIcxrA_fd0-8EsvPQMP-SDXYUzBQkJW1O211lIvU-QGklCbaO6ZevHBn7BY8&_nc_zt=23&_nc_ht=scontent.fbdq2-1.fna&_nc_gid=AV7zHPXqY0s79nOA8AF2c8s&oh=00_AYBSq9jik500D6gmb-LUHYvEenTYLgB4h97bqSeoLKs-mg&oe=67B35CE2"
             alt="event image"
