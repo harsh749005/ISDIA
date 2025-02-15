@@ -4,10 +4,10 @@ import './SliderBar.css'
 const SlilderBar = () => {
     const [index,setIndex] = useState(0);
     const images = [
-        {'name':'Green Planet','src':'https://www.dubaitravelguide.info/wp-content/uploads/green_planet_dubai-1.jpg.webp'},
+        {'name':'Dubai Frame','src':'https://media1.thrillophilia.com/filestore/o8bnnnji8pu9gejkdgvzu4xttj4w_shutterstock_1917419387.jpg'},
         {'name':'Museum of Future','src':'https://www.artnews.com/wp-content/uploads/2022/05/Museum-of-Future-Exterior-3.jpg?w=1200'},
         {'name':'Marina yacht cruise','src':'https://media1.thrillophilia.com/filestore/6e51qxqcyrvg1h6rmplkjc58gvzp_shutterstock_762363757.jpg'},
-        {'name':'Dubai Frame','src':'https://media1.thrillophilia.com/filestore/o8bnnnji8pu9gejkdgvzu4xttj4w_shutterstock_1917419387.jpg'},
+        {'name':'Green Planet','src':'https://www.dubaitravelguide.info/wp-content/uploads/green_planet_dubai-1.jpg.webp'},
         {'name':'Dubai RiverLand','src':'https://wowdubaitravel.com/wp-content/uploads/2024/01/IMG_8656-scaled.jpg.webp'},
         {'name':'Global Village','src':'https://www.timeoutdubai.com/cloud/timeoutdubai/2024/10/07/eGWtgMXV-Global-Village-1-1200x900.jpg'},
         {'name':'Burj Khalifa','src':'https://amazingarchitecture.com/storage/6257/burj-khalifa.jpg'},
