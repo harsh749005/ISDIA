@@ -40,7 +40,7 @@ const Countries = () => {
       <div className="flex items-center gap-5 flex-wrap">
         {/* map them */}
         {countryNames.map((name) => (
-          <span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic font-poppins">
+          <span className="text-white text-sm md:text-md lg:text-lg  w-max px-2 bg-[#9d66ff] font-medium italic font-poppins">
             {name}
           </span>
         ))}
