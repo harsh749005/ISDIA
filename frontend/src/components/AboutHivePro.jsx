@@ -56,8 +56,8 @@ const AboutHivePro = () => {
           Altrosmart, AmiseQ to his credits as founder.
         </p>
       </div>
-      <div className="flex-1 bg-black px-10 py-10 md:py-20  md:hidden">
-        <div className="image_div w-full  md:w-[700px]  ">
+      <div className="flex-1 bg-black px-10 py-10 md:py-20  xl:hidden">
+        <div className="image_div w-full  md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[600px] xl:w-[700px] xl:h-[700px]">
           <img
             src="https://dcloud.com.sa/wp-content/uploads/2022/11/2022-11-07-01_41_11-Ei557LvXcAITwZf-4032%C3%973024.jpg"
             alt="event image"
