@@ -7,7 +7,7 @@ const AboutUOWD = () => {
         <h1 className="text-4xl md:text-4xl lg:text-4xl xl:text-6xl font-spacemono font-bold text-white">
           University of Wollongong in Dubai (UOWD)
         </h1>
-        <p className="text-gray-400  font-medium text-sm font-poppins">
+        <p className="text-gray-400  md:font-medium text-sm font-poppins">
           University of Wollongong, Australia (UOW Australia) is one of the
           world's most respected young universities. UOW is ranked among <span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic ">top 200
           universities</span> in the World and a <span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic ">5+ star</span> ranking by QS World University
@@ -21,14 +21,14 @@ const AboutUOWD = () => {
           choice for over <span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic ">3, 500 students representing 108 nationalities.</span>
         </p>
 
-        <p className="text-gray-400  font-medium text-sm font-poppins ">
+        <p className="text-gray-400  md:font-medium text-sm font-poppins ">
           All of the degree courses are accredited by the UAE Ministry of
           Education’s Commission for Academic Accreditation (CAA) and licensed
           by Dubai’s Knowledge and Human Development Authority (KHDA), and
           recognized by leading professional organizations such as <span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic ">AACSB</span>,<span  className="text-white w-max px-2 bg-[#9d66ff] font-medium italic "> ACCA</span>,
           <span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic ">ACS</span>, <span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic ">CIM</span>, <span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic ">CIPD</span>, <span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic ">CPA</span>, <span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic ">Engineers Australia</span>,<span className="text-white w-max px-2 bg-[#9d66ff] font-medium italic ">PMI</span> , and others.
         </p>
-        <p className="text-gray-400  font-medium text-sm font-poppins ">
+        <p className="text-gray-400  md:font-medium text-sm font-poppins ">
           The School of Computer Science is one of oldest departments in
           University of Wollongong in Dubai. Offering Bachelor degrees in
           Computer Science, Cyber Security, Game and Mobile Development, and AI
