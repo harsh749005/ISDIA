@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className='w-full h-screen'>
      <Banner/> 
-     <Events/>
+     {/* <Events/>
      <AboutISDIA/>
      <AboutUOWD/>
      <AboutHivePro/>
@@ -23,7 +23,7 @@ const Home = () => {
      <Countries/>
      <Conference/>
      <SlilderBar/>
-     <Footer/>
+     <Footer/> */}
     </div>
   )
 }
