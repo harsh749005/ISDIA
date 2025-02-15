@@ -8,7 +8,7 @@ const Navbar = ({toggleCheck,check}) => {
         <div className="flex items-center gap-20">
           <div>
             <span className="text-[#9d66ff] text-2xl font-bold font-poppins">
-              ISDIA
+              ISDIA 2025
             </span>
           </div>
           <ul className="cursor-pointer w-full text-white text-[12px]  gap-5 font-spacemono hidden md:flex">
