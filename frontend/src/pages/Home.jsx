@@ -23,7 +23,7 @@ const Home = () => {
      <Countries/>
      <Conference/>
      <SlilderBar/>
-     {/* <Footer/> */}
+     <Footer/>
     </div>
   )
 }

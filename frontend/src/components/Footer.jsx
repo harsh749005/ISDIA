@@ -1,13 +1,13 @@
 import React from "react";
 import { IoArrowUpOutline } from "react-icons/io5";
-import './Footer.css'
+import "./Footer.css";
 
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <div className="relative w-full px-10 py-20 pt-20 bg-[#0f0f0f] flex flex-col gap-5">
+    <div className="relative w-full px-2 md:px-10 py-20 pt-20 bg-[#0f0f0f] flex flex-col gap-5">
       {/* Logo */}
       <div>
         <span className="text-[#9d66ff] text-4xl font-bold font-poppins">
@@ -15,7 +15,7 @@ const Footer = () => {
         </span>
       </div>
 
-      <div className="w-full  bg-[#0f0f0f] flex gap-5">
+      <div className="w-full  bg-[#0f0f0f] flex gap-5 flex-wrap">
         {/* QuickLinks */}
         <div className="flex flex-col gap-5">
           <h1 className=" text-gray-400 text-xl font-spacemono">QuickLinks</h1>
@@ -133,14 +133,16 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      
-      <div className="w-max h-max absolute right-20 bottom-30">
 
-      <button onClick={scrollToTop}  className="relative upper-btn-div w-max h-max hidden xl:block bg-[#202020] px-2 py-2 rounded-full font-poppins text-white shadow-2xl hover:text-white ">
-      <IoArrowUpOutline className="upper-icon  text-2xl "/>
+      <div className="w-max h-max absolute right-5 bottom-20 md:right-10 m">
+        <button
+          onClick={scrollToTop}
+          className="relative upper-btn-div w-max h-max bg-[#202020] px-2 py-2 rounded-full font-poppins text-white shadow-2xl hover:text-white "
+        >
+          <IoArrowUpOutline className="upper-icon  text-2xl " />
         </button>
-    </div>
       </div>
+    </div>
   );
 };
 
